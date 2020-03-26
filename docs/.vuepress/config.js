@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Hello VuePress',
+  title: 'hello word',
   base: '/huanghaiblog/',
   themeConfig: {
     nav: [
