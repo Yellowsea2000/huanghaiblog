@@ -1,5 +1,6 @@
 module.exports = {
   title: 'Hello VuePress',
+  base: '/huanghaiblog/',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
