@@ -5,27 +5,30 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '前端', link: '/front/' },
-      { text: 'git', link: '/git' }
+      { text: '示例demo', link: '/demo/' }
     ],
-    sidebar: [
-      {
-        title: 'html',
-        path: '/front/',
-        collapsable: false,
-        sidebarDepth: 1
-      },
-      {
-        title: 'css',
-        path: '/front/css',
-        collapsable: false,
-        sidebarDepth: 1
-      },
-      {
-        title: 'js',
-        path: '/front/js',
-        collapsable: false,
-        sidebarDepth: 1
-      }
-    ]
+    sidebar: {
+      '/front/': [
+        {
+
+          collapsable: false,
+          sidebarDepth: 1,
+          children: [
+            { title: '布局', path: 'layout' }
+          ]
+        }
+      ],
+      '/demo/': [
+        {
+
+          collapsable: false,
+          sidebarDepth: 1,
+          children: [
+            { title: '从零实现一个mvvm框架', path: 'mvvm' }
+          ]
+        }
+      ]
+
+    }
   }
 }

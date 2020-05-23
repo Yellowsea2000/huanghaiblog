@@ -1,6 +1,14 @@
 # 一级标题
 
-one
+```js {4}
+export default {
+  data() {
+    return {
+      msg: 'Highlighted!'
+    }
+  }
+}
+```
 
 ## 二级标题
 
