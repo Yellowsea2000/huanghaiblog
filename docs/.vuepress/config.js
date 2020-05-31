@@ -2,6 +2,10 @@ module.exports = {
   title: 'Yellowsea blog',
   base: '/huanghaiblog/',
   extraWatchFiles: ['**/*.md', '**/*.vue', '**/*.js', '**/*.html'],
+  chainWebpack (config, isServer) {
+    config.devServer
+      .hot(true)
+  },
   themeConfig: {
     nav: [
       { text: '前端', link: '/front/layout' },
@@ -15,7 +19,8 @@ module.exports = {
           collapsable: true,
           sidebarDepth: 1,
           children: [
-            { title: '布局', path: 'layout' }
+            { title: '布局', path: 'layout' },
+            { title: 'http', path: 'http' }
           ]
         }
       ],
