@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Yellowsea blog',
-  base: '/huanghaiblog/',
+  base: '/',
   extraWatchFiles: ['**/*.md', '**/*.vue', '**/*.js', '**/*.html'],
   chainWebpack (config, isServer) {
     config.devServer
