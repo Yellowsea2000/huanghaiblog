@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev docs",
+    "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh"
   },
@@ -18,5 +18,7 @@
     "url": "https://github.com/Yellowsea2000/huanghaiblog/issues"
   },
   "homepage": "https://github.com/Yellowsea2000/huanghaiblog#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "vuepress": "^1.5.4"
+  }
 }
