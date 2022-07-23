@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /hero.png
-actionText: Get Started →
+actionText: 开始吧 →
 actionLink: /
 features:
   - title: Simplicity First
