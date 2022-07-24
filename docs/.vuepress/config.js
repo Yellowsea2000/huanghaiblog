@@ -10,7 +10,7 @@ module.exports = {
     nav: [
       { text: '前端', link: '/front/layout' },
       { text: '示例demo', link: '/demo/mvvm' },
-      { text: "面试题收集", link: '/interview/a' }
+      // { text: "面试题收集", link: '/interview/a' }
     ],
     sidebar: {
       '/front/': [
